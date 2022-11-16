@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container">
+    <header class="row">
+        <div class="col-12 col-md-6" id="header-text">
+            <h2>Keeping the Kardashians Up with the Kardashians</h2>    
+            <h5>Talk with other fans, bloggers, wannabes, and haters just like you
+                so you can keep up with the Kardashians in between episodes. Why wait 
+                for Hulu to release what you already know? Send tips, gossip and pics 
+                so that the Kardashians will have to keep up with us. </h5>
+            <div>
+                <button class = "btn btn-primary">Join the Discussion</button>
+                <button class = "btn btn-primary">View Family Photos</button>
+                <button class = "btn btn-primary">Katch Up on Latest News</button>
+            </div>
+        </div>
+    <!--Header Image-->
+        <div class = "col-12 cold-md-6">
+            <img src= "../../static/images/Kardashians.jpg" width=500px height=300px alt = "Hero Header Image" class = "header_image"> 
+        </div>
+    </header>
+    <!--End of Header Section-->
+
+
+    <!--Start of Middle Section-->
+    <section class="row">
+        <div class="col-12" id="middle-text">
+            <h2>Join the Konversation!</h2>
+            <p>You're not the only person who secretly wants to talk about the Kardashians 24/7 but kan't.</p>
+        </div>
+    </section>
+     <!--End of Middle Section-->
+
+
+    <!--Collection of Features-->
+<section class="row" id="features-section">
+    <div class = "col-12 col-md-4">
+        <img src = "../../static/images/Kris.jpg" width=220px height=300px alt = "API image" id="kris-image">
+        <h4>The Devil works hard, but does Kris really work harder and also is she the Devil?</h4>
+        <p>
+            On screen, Kris seems like the perfect stage mom, but we wanna know the truth! What's really going on behind that 
+            Dolce? 
+        </p>
+    </div>
+
+    <div class = "col-12 col-md-4">
+        <img src = "../../static/images/Rob.jpg" width=200px height=300px alt="graphq1-image" id="rob-image">
+        <h4>Robert Arthur Kardashian Jr.: Alive or just sick of being alive?</h4>
+        <p>
+            Elusive and loveable, Rob. Will we see him on this season of KUWTK? Is he plotting revenge against his sisters 
+            who bullied him out of the family spotlight? Let us know if you know so we can let HIM know! 
+        </p>
+    </div>
+
+    <div class = "col-12 col-md-4">
+        <img src="../../static/images/Jenners.jpg" alt="database image" id="jenners-image">
+        <h4>The Jenners</h4>
+        <p>
+            An Olympic athlete, a supermodel, a billionaire...Brody. What can't this family do?
+        </p>
+    </div>
+</section>
+</div>
+<!--End of Collection of Features-->
+
+
+<!--Begin Community Section-->
+<section class="row">
+    <div class="col-12 col-md-6">
+        <img src = "../../static/images/Kollage.jpg" alt="Kollage Image" id="kollage-image">
+    </div>
+
+    <div class="col-12 col-md-6" id="kommunity">
+        <h4>Join Our Kommunity!</h4>
+        <p>
+            With the holidays just around the korner, it's never a bad idea to have backup Konversation pieces up your sleeves! 
+            Find news, updates, and chit chat to make your politically obsessed grandfather so bored he'll have to take a nap. 
+            You're welcome. ;) 
+        
+        </p>
+        <div>
+            <button class="btn btn-primary">Send Tips</button>
+            <button class="btn btn-primary">Get the Newsletter</button>
+            <button class="btn btn-primary">Join the Chat</button>
+        </div>
+    </div>
+</section>
+<!--End of Community Section-->
+
+
+<!--Start of Footer-->
+<footer class="row" id="footer">
+    <div class="col-2 col-md-2">
+        <img src="../../static/images/Logo.jpg" alt="Logo" id="footer-logo">
+    </div>
+
+    <div class="col-2 col-md-2">
+        <div class="footer-text-flex">
+            <h4>Get Connected</h4>
+            <p>Join our Newsletter!</p>
+            <p>Send in Tips</p>
+            <p>Donate</p>
+        </div>
+    </div>
+
+    <div class="col-2 col-md-2">
+        <div class="footer-text-flex">
+            <h4>Social</h4>
+            <p>Find us on Facebook!</p>
+            <p>Find us on Instagram!</p>
+            <p>Find us on Twitter!</p>
+            <p>Clearly, we are easy to find!</p>
+        </div>
+    </div>
+
+    <div class="col-2 col-md-2">
+        <div class="footer-text-flex">
+            <h4>Contact Us</h4>
+            <p>Email: ktkuwtk@gmail.com</p>
+            <p>Don't be shy, say hello!</p>
+        </div>
+    </div>
+</footer>
+
+
+{% endblock content %}
