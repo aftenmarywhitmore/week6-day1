@@ -1,6 +1,6 @@
 /*Nav Styles*/
 
-ct-nav{
+.ct-nav{
     display: flex;
     justify-content: space-between;
     background: lightpink;
@@ -10,8 +10,6 @@ ct-nav{
 .container{
     background-color: lightpink;
 }
-
-
 
 
 .header-text{
